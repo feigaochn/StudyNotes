@@ -76,3 +76,16 @@ defaults write com.apple.helpviewer DevMode -bool true
 defaults write com.apple.screencapture location /path/to/screencaptures
 killall SystemUIServer
 ```
+
+* update `locate` database
+
+```sh
+sudo /usr/libexec/locate.updatedb
+```
+
+* Reset the Mac Dock to Default State & Default Icons in OS X
+
+```sh
+defaults delete com.apple.dock; killall Dock
+```
+
