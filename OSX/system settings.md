@@ -83,9 +83,15 @@ killall SystemUIServer
 sudo /usr/libexec/locate.updatedb
 ```
 
-* Reset the Mac Dock to Default State & Default Icons in OS X
+* Reset the Mac Dock to Default State and Default Icons in OS X
 
 ```sh
 defaults delete com.apple.dock; killall Dock
+```
+
+* reset launchpad icons
+
+```sh
+rm Library/Application\ Support/Dock/*.db; killall Dock
 ```
 
