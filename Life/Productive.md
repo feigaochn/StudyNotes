@@ -1,0 +1,4 @@
+- Cutoff SNS
+- Practice efficient procrastination
+- To-do list
+- No one cares your post/tweet
