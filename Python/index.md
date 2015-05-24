@@ -5,9 +5,22 @@
 
 - [HOWTO Fetch Internet REsources Using The `urllib` Package](https://docs.python.org/3.4/howto/urllib2.html), [Chinese translanstion](http://python.jobbole.com/81398/)
 
+### `os`
+
+- [Let's build a web server part 3](http://ruslanspivak.com/lsbaws-part3/)
+	- `os.fork`, `os.wait`, `signal`, `errno`, `socket`
+
 ## Web Frameworks
 
+### WSGI
+
+- [Let's build a web server](http://ruslanspivak.com/lsbaws-part2/)
+
 ### Django
+
+#### Workflow
+
+- [Starting a Django Project](https://realpython.com/learn/start-django/#summary-workflow)
 
 #### Rest
 
